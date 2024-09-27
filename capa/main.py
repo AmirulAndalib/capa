@@ -53,6 +53,7 @@ from capa.loader import (
     BACKEND_FREEZE,
     BACKEND_PEFILE,
     BACKEND_DRAKVUF,
+    BACKEND_LANCELOT,
     BACKEND_BINEXPORT2,
 )
 from capa.helpers import (
@@ -290,6 +291,7 @@ def install_common_args(parser, wanted=None):
             (BACKEND_BINJA, "Binary Ninja"),
             (BACKEND_DOTNET, ".NET"),
             (BACKEND_BINEXPORT2, "BinExport2"),
+            (BACKEND_LANCELOT, "Lancelot"),
             (BACKEND_FREEZE, "capa freeze"),
             (BACKEND_CAPE, "CAPE"),
             (BACKEND_DRAKVUF, "DRAKVUF"),
